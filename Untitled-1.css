@@ -1,0 +1,54 @@
+header {
+	border: 5px solid blue;
+	background:#B1181A;
+	margin: auto;
+	border-style: dashed;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+
+footer {
+	background: #4933D3;
+}
+
+#cities {
+	background: green;
+}
+#population {
+	background: purple;
+}
+ {
+	background: #3ADF20;
+}
+
+ol {
+	border: 2px solid#F02427;
+}
+
+ol :first-child,
+ol :last-child{
+	background: yellow;
+}
+
+input:focus{
+	border: 5px solid green;
+}
+
+p:hover{
+	background: #555555;
+}
+
+body header nav {
+	list-style: none;
+	text-decoration: underline;
+	font-weight: 200;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	
+}
+body img{
+	border: solid green;
+	float: right;
+}
+
+
