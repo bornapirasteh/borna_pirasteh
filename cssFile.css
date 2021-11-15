@@ -1,0 +1,89 @@
+header {
+	border: 5px solid blue;
+	background:#B1181A;
+	margin: 50px;
+	border-style: dashed;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+	align-content: center;
+}
+
+footer {
+	background: #4933D3;
+	margin: 50px;
+}
+
+#cities {
+	background: green;
+}
+#population {
+	background: purple;
+}
+
+ol {
+	border: 2px solid#F02427;
+}
+
+ol :first-child,
+ol :last-child{
+	background: yellow;
+}
+
+input:focus{
+	border: 5px solid green;
+}
+
+p:hover{
+	background: #555555;
+}
+
+body header nav {
+	list-style: none;
+	text-decoration: underline;
+	font-weight: 200;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	
+}
+
+.contents {
+	width: 300px;
+}
+
+body img{
+	border: solid green;
+}
+
+.flex-container {
+	box-shadow: 15px 15px 20px 20px black;
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+	flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: silver;
+    flex-flow: wrap;
+	
+}
+
+.section{
+width: 300px;
+	margin: 20px;
+}
+
+.section:first-child{
+	order: 1;
+
+}
+
+.section:nth-child(2){
+	order: 2;
+
+}
+.section:last-child{
+	order: 3;
+
+}
+
+
+
