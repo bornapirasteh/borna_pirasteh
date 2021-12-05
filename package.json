@@ -1,0 +1,22 @@
+{
+  "name": "borna_pirasteh",
+  "version": "1.0.0",
+  "description": "assignment 7",
+  "main": "js_file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bornapirasteh/borna_pirasteh.git"
+  },
+  "author": "borna pirasteh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bornapirasteh/borna_pirasteh/issues"
+  },
+  "homepage": "https://github.com/bornapirasteh/borna_pirasteh#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
